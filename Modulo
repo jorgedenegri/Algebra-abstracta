@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int modulo(int a, int n){
+    int q,r;
+    if (a<0){
+        q=a/n;
+        r=a-((q-1)*n);
+        return r;
+    }else{
+        q=a/n;
+        r=a-(q*n);
+        return r;
+    }
+}
+
+int main(){
+    cout<<modulo(255,11);
+    }
