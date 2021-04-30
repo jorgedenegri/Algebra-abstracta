@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1619766517 source:c:\users\gomez\desktop\c++\alfin\src\afin.cpp
+	"afin.h"
+	<stdlib.h>
+	<string>
+	<iostream>
+	<time.h>
+
+1619766087 c:\users\gomez\desktop\c++\alfin\include\afin.h
+	<string>
+
+1619765856 source:c:\users\gomez\desktop\c++\alfin\main.cpp
+	<iostream>
+	<string>
+	"afin.h"
+
